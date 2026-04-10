@@ -1,12 +1,12 @@
-# Cod reducere ASOS — fetch automat de pe shopilo.it
+# Codice sconto ASOS, recupero automatico da shopilo.it
 
-Modul Python pentru fetch automat de **coduri de reducere ASOS** de pe [shopilo.it](https://shopilo.it/magazin/asos.com). Returneaza **cupoane ASOS** active in format JSON, gata de integrat intr-un bot Telegram, extensie de browser sau orice alt tool.
+Modulo Python per il recupero automatico di **codici sconto ASOS** da [shopilo.it](https://shopilo.it/negozi/asos.com). Restituisce **coupon ASOS** attivi in formato JSON, pronto per l'integrazione in un bot Telegram, estensione del browser o qualsiasi altro strumento.
 
 **Pagina live:** [shopilo-it.github.io/codice-sconto-asos](https://shopilo-it.github.io/codice-sconto-asos/)
 
 ![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue) ![License MIT](https://img.shields.io/badge/license-MIT-green)
 
-## Instalare
+## Installazione
 
 ```bash
 pip install requests beautifulsoup4
@@ -15,7 +15,7 @@ cd codice-sconto-asos
 python fetch.py
 ```
 
-## Output exemplu
+## Output di esempio
 
 ```json
 [
@@ -25,38 +25,38 @@ python fetch.py
     "discount": "20%",
     "description": "20% di sconto su abbigliamento selezionato",
     "expires": "2026-10-10",
-    "source": "https://shopilo.it/magazin/asos.com"
+    "source": "https://shopilo.it/negozi/asos.com"
   }
 ]
 ```
 
-## Cupoane ASOS disponibile
+## Coupon ASOS disponibili
 
-| Reducere | Descriere | Sursa |
+| Sconto | Descrizione | Fonte |
 |----------|-----------|-------|
-| 20% | 20% di sconto su abbigliamento selezionato | [shopilo.it](https://shopilo.it/magazin/asos.com) |
+| 20% | 20% di sconto su abbigliamento selezionato | [shopilo.it](https://shopilo.it/negozi/asos.com) |
 
-Codurile active: **[shopilo.it/magazin/asos.com](https://shopilo.it/magazin/asos.com)**
+Codici attivi: **[shopilo.it/negozi/asos.com](https://shopilo.it/negozi/asos.com)**
 
-## Intrebari frecvente
+## Domande frequenti
 
-### Cum folosesc un cod de reducere ASOS?
-Copiaza codul din tabelul de mai sus sau de pe [shopilo.it](https://shopilo.it/magazin/asos.com), adauga produsele in cos pe ASOS, si introdu codul la checkout in campul dedicat.
+### Come utilizzo un codice sconto ASOS?
+Copia il codice dalla tabella qui sopra o da [shopilo.it](https://shopilo.it/negozi/asos.com), aggiungi i prodotti al carrello su ASOS e inserisci il codice al checkout nel campo dedicato.
 
-### Cat timp sunt valabile cupoanele ASOS?
-Fiecare cupon are data de expirare afisata in coloana "Expira". Scriptul fetch.py returneaza doar cupoanele active la momentul rularii.
+### Quanto durano i coupon ASOS?
+Ogni coupon ha una data di scadenza indicata nella colonna "Scadenza". Lo script fetch.py restituisce solo i coupon attivi al momento dell'esecuzione.
 
-### Unde gasesc cele mai noi voucher-uri ASOS?
-Pagina [shopilo.it/magazin/asos.com](https://shopilo.it/magazin/asos.com) este actualizata zilnic cu cele mai noi cod reducere ASOS, voucher ASOS si cupon promotional ASOS.
+### Dove trovo i voucher ASOS piu recenti?
+La pagina [shopilo.it/negozi/asos.com](https://shopilo.it/negozi/asos.com) viene aggiornata quotidianamente con i codici sconto ASOS, voucher ASOS e coupon promozionali ASOS piu recenti.
 
-### Codul nu functioneaza. Ce fac?
-Verifica data de expirare si conditiile (valoare minima cos, produse eligibile). Unele coduri sunt valabile doar in aplicatia mobila sau pentru prima comanda.
+### Il codice non funziona. Cosa faccio?
+Verifica la data di scadenza e le condizioni (importo minimo del carrello, prodotti idonei). Alcuni codici sono validi solo nell'app mobile o per il primo ordine.
 
-## Despre ASOS
+## Informazioni su ASOS
 
-ASOS este unul dintre magazinele online populare. Gasesti pe [shopilo.it](https://shopilo.it/magazin/asos.com) cele mai bune cod reducere ASOS, cupoane ASOS verificate si voucher ASOS active, actualizate zilnic.
+ASOS e uno dei negozi online piu popolari. Su [shopilo.it](https://shopilo.it/negozi/asos.com) trovi i migliori codici sconto ASOS, coupon ASOS verificati e voucher ASOS attivi, aggiornati ogni giorno.
 
-## Instalare npm
+## Installazione npm
 
 ```bash
 npm install codice-sconto-asos
@@ -67,6 +67,6 @@ const { fetchCoupons } = require('codice-sconto-asos');
 fetchCoupons().then(data => console.log(data));
 ```
 
-## Licenta
+## Licenza
 
-MIT — date sursa de pe [shopilo.it](https://shopilo.it)
+MIT, dati prelevati da [shopilo.it](https://shopilo.it)
