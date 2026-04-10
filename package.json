@@ -1,20 +1,20 @@
 {
   "name": "codice-sconto-asos",
   "version": "1.0.0",
-  "description": "Fetch automat de coduri de reducere ASOS de pe shopilo.it",
+  "description": "Recupero automatico di codici sconto ASOS da shopilo.it",
   "main": "index.js",
   "keywords": [
-    "cod-reducere",
-    "cod-reducere-asos",
+    "codice-sconto",
+    "codice-sconto-asos",
     "voucher-asos",
-    "cupon-asos",
-    "reduceri",
+    "coupon-asos",
+    "sconti",
     "shopilo",
-    "cupoane"
+    "coupon"
   ],
   "author": "shopilo-it",
   "license": "MIT",
-  "homepage": "https://shopilo.it/magazin/asos.com",
+  "homepage": "https://shopilo.it/negozi/asos.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/shopilo-it/codice-sconto-asos.git"
